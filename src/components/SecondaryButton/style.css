@@ -1,0 +1,42 @@
+.secondary-button {
+  align-items: flex-start;
+  border-radius: 8px;
+  display: inline-flex;
+  gap: 4px;
+  height: 48px;
+  overflow: hidden;
+  padding: 16px 32px;
+  position: relative;
+}
+
+.secondary-button .button {
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.secondary-button.default {
+  border: 2px solid;
+  border-color: #f4f4f4;
+  box-shadow: 4px 4px 24px 2px #0000001f;
+}
+
+.secondary-button.variant-2 {
+  background-color: #f4f4f4;
+  box-shadow: inset 2px 2px 12px #0000001f;
+}
+
+.secondary-button.default .button {
+  color: #f4f4f4;
+  margin-top: -2px;
+}
+
+.secondary-button.variant-2 .button {
+  color: #151515;
+  margin-top: -1px;
+}

@@ -1,0 +1,67 @@
+.frame {
+  background-color: #ffffff;
+  border-radius: 40px 8px 40px 8px;
+  box-shadow: 4px 4px 24px 2px #0000001f;
+  height: 300px;
+  overflow: hidden;
+  transform: rotate(180deg);
+  width: 240px;
+}
+
+.frame .overlap-group {
+  height: 300px;
+  position: relative;
+  width: 241px;
+}
+
+.frame .rectangle {
+  height: 300px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 240px;
+}
+
+.frame .div {
+  background-color: #ffffffbf;
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+.frame .vector {
+  height: 117px;
+  left: 130px;
+  position: absolute;
+  top: 166px;
+  transform: rotate(-180deg);
+  width: 94px;
+}
+
+.frame .group {
+  height: 84px;
+  left: 25px;
+  position: absolute;
+  top: 54px;
+  transform: rotate(-180deg);
+  width: 182px;
+}
+
+.frame.variant-2 {
+  border: 2px solid;
+  border-color: #f4f4f4;
+}
+
+.frame.default .div {
+  height: 4px;
+  left: 235px;
+  top: 296px;
+  width: 6px;
+}
+
+.frame.variant-2 .div {
+  height: 300px;
+  left: 0;
+  top: 0;
+  width: 241px;
+}

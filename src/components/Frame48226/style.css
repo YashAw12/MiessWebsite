@@ -1,0 +1,67 @@
+.frame-48226 {
+  background-color: #ffffff;
+  border-radius: 40px 8px 40px 8px;
+  box-shadow: 4px 4px 24px 2px #0000001f;
+  height: 300px;
+  overflow: hidden;
+  transform: rotate(180deg);
+  width: 240px;
+}
+
+.frame-48226 .overlap-group-3 {
+  height: 300px;
+  position: relative;
+  width: 241px;
+}
+
+.frame-48226 .rectangle-3 {
+  height: 300px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 240px;
+}
+
+.frame-48226 .rectangle-4 {
+  background-color: #ffffffbf;
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+.frame-48226 .vector-3 {
+  height: 117px;
+  left: 130px;
+  position: absolute;
+  top: 166px;
+  transform: rotate(-180deg);
+  width: 94px;
+}
+
+.frame-48226 .group-3 {
+  height: 84px;
+  left: 25px;
+  position: absolute;
+  top: 54px;
+  transform: rotate(-180deg);
+  width: 182px;
+}
+
+.frame-48226.property-1-2-variant-2 {
+  border: 2px solid;
+  border-color: #f4f4f4;
+}
+
+.frame-48226.property-1-2-default .rectangle-4 {
+  height: 4px;
+  left: 235px;
+  top: 296px;
+  width: 6px;
+}
+
+.frame-48226.property-1-2-variant-2 .rectangle-4 {
+  height: 300px;
+  left: 0;
+  top: 0;
+  width: 241px;
+}

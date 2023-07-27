@@ -1,0 +1,68 @@
+.property-default-wrapper {
+  background-color: #ffffff;
+  border-radius: 40px 8px 40px 8px;
+  box-shadow: 4px 4px 24px 2px #0000001f;
+  height: 300px;
+  overflow: hidden;
+  transform: rotate(180deg);
+  width: 240px;
+}
+
+.property-default-wrapper .overlap-group-2 {
+  height: 300px;
+  position: relative;
+  width: 241px;
+}
+
+.property-default-wrapper .img {
+  height: 300px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 240px;
+}
+
+.property-default-wrapper .rectangle-2 {
+  background-color: #ffffffbf;
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+.property-default-wrapper .vector-2 {
+  height: 117px;
+  left: 130px;
+  position: absolute;
+  top: 166px;
+  transform: rotate(-180deg);
+  width: 94px;
+}
+
+.property-default-wrapper .group-2 {
+  height: 84px;
+  left: 25px;
+  position: absolute;
+  top: 54px;
+  transform: rotate(-180deg);
+  width: 182px;
+}
+
+.property-default-wrapper.property-1-0-variant-2 {
+  border: 2px solid;
+  border-color: #f4f4f4;
+}
+
+.property-default-wrapper.property-1-0-default .rectangle-2 {
+  height: 4px;
+  left: 235px;
+  top: 296px;
+  width: 6px;
+}
+
+.property-default-wrapper.property-1-0-variant-2 .rectangle-2 {
+  height: 300px;
+  left: 0;
+  top: 0;
+  width: 241px;
+}

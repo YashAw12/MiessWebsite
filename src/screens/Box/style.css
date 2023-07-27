@@ -1,0 +1,183 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.box .macbook-pro-wrapper {
+  border: 0px none;
+  /* height: 1056px; */
+  position: relative;
+  /* width: 1728px; */
+}
+
+.box .macbook-pro {
+  /* height: 1056px; */
+  /* left: 0; */
+  background-color: #5f7069;
+  position: relative;
+  /* top: 0; */
+  /* width: 1728px; */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  /* max-width: 500px !important; */
+  /* gap: 69px; */
+}
+
+.whoweare {
+  text-align: center;
+  margin: auto 3%;
+  flex-basis: 430px;
+  /* min-width: 250px;
+  max-width: 430px; */
+}
+.macbook-pro.whatwedo {
+  background-color: #596c64;
+}
+
+.macbook-pro.our-team {
+  background-color: #596c64;
+}
+.whatwedo {
+  text-align: center;
+}
+
+.whatwedo > h1 {
+  margin: 86px 40px auto;
+}
+.ourevents > h1 {
+  margin-top: 25%;
+  margin-bottom: 36%;
+}
+.our-executive {
+  margin-top: 10%;
+}
+
+.box .image {
+  height: 1004px;
+  /* left: 749px; */
+  /* position: absolute; */
+  /* top: 0; */
+  width: 979px;
+}
+
+.box .text-wrapper {
+  color: #ffffff;
+  font-family: "Monument Extended-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  /* left: 242px; */
+  letter-spacing: 0;
+  line-height: 43.2px;
+  /* position: absolute; */
+  text-align: center;
+  /* top: 188px; */
+  /* white-space: nowrap; */
+}
+
+.box .text-wrapper-para {
+  color: #e2e2e2;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  /* left: 150px; */
+  letter-spacing: 0.4px;
+  line-height: 34px;
+  margin: 40px 3%;
+
+  /* position: absolute; */
+  /* text-align: center; */
+  /* top: 271px; */
+  /* width: 530px; */
+}
+
+.box .buttondiv {
+  /* left: 308px !important;
+  position: absolute !important;
+  top: 686px !important; */
+  /* text-align: center; */
+  margin-bottom: 40px;
+}
+
+.box .design-component-instance-node {
+  font-size: 18px !important;
+  letter-spacing: 0.72px !important;
+}
+
+.rectangle > img {
+  height: 382px;
+  /* left: 0;
+  position: absolute;
+  top: 0; */
+  width: 382px;
+}
+.rectangle {
+  margin: 2%;
+}
+
+.macbook-pro.oureventsimg {
+  /* justify-content: space-evenly; */
+  margin: auto 5%;
+}
+
+.secondary-button-instance-viewall {
+  margin-top: 4%;
+  margin-bottom: 6%;
+}
+
+.dhaval-mendapara {
+  color: #f4f4f4;
+  font-family: "Lato", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 61px;
+  /* left: 1107px; */
+  letter-spacing: 0;
+  line-height: 33.6px;
+  /* position: absolute; */
+  text-align: center;
+  margin-top: 15%;
+  /* top: 555px; */
+}
+
+.span {
+  color: #151515;
+  font-weight: 700;
+}
+
+.text-wrapper-2 {
+  color: #151515;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.our-team-item {
+  margin: 3.2%;
+}
+
+
+
+.our-team {
+  padding-bottom: 7%;
+}
+
+.macbook-pro.gallery > div {
+  margin-top: 6%;
+}
+@media (max-width: 1520px) and (min-width: 660px) {
+  .box .image {
+    height: 663px;
+    width: 646px;
+  }
+}
+@media (max-width: 660px) {
+  .box .image {
+    height: 277px;
+    width: 270px;
+  }
+}
